@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    tools:context=".NotificationActivity">
+    <EditText
+        android:id="@+id/notification_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Notification Title"
+        android:layout_marginTop="150dp"
+        android:textSize="24dp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/notification_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:hint="Notification Text"
+        android:layout_below="@id/notification_title"/>
+
+    <EditText
+        android:id="@+id/notification_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notification_text"
+        android:layout_marginTop="10dp"
+        android:hint="Date"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/notification_hour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Time"
+        android:gravity="center"
+        android:layout_below="@id/notification_time"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginEnd="70dp"
+        android:text="SET NOTIFICATION"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/notification_hour"
+        android:gravity="center"/>
+</RelativeLayout>

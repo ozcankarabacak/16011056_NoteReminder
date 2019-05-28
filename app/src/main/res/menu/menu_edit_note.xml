@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/save_note"
+        android:title="Save"
+        android:icon="@drawable/save2"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/change_color"
+        android:title="Change Color"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/upload_img"
+        android:title="Add Image"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/upload_video"
+        android:title="Add Video"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/notification"
+        android:title="Add Notification"
+        app:showAsAction="never"/>
+</menu>
